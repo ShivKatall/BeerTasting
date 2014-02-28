@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class BeerTastingDataController;
+
 @interface BeerMasterViewController : UITableViewController
+
+@property (nonatomic, strong) BeerTastingDataController *dataController;
 
 @end

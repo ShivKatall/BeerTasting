@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D29B1FE18BEAE8C00C91FD5 /* AddTastingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29B1FD18BEAE8C00C91FD5 /* AddTastingViewController.m */; };
 		3DF5B5B018A9A92D006431AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF5B5AF18A9A92D006431AF /* Foundation.framework */; };
 		3DF5B5B218A9A92D006431AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF5B5B118A9A92D006431AF /* CoreGraphics.framework */; };
 		3DF5B5B418A9A92D006431AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF5B5B318A9A92D006431AF /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		3DF5B5D418A9A92D006431AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF5B5B318A9A92D006431AF /* UIKit.framework */; };
 		3DF5B5DC18A9A92D006431AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DF5B5DA18A9A92D006431AF /* InfoPlist.strings */; };
 		3DF5B5DE18A9A92D006431AF /* BeerTastingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5B5DD18A9A92D006431AF /* BeerTastingTests.m */; };
+		3DF5B5E918A9B003006431AF /* BeerTasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5B5E818A9B003006431AF /* BeerTasting.m */; };
+		3DF5B5EC18A9B359006431AF /* BeerTastingDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5B5EB18A9B359006431AF /* BeerTastingDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D29B1FC18BEAE8C00C91FD5 /* AddTastingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTastingViewController.h; sourceTree = "<group>"; };
+		3D29B1FD18BEAE8C00C91FD5 /* AddTastingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTastingViewController.m; sourceTree = "<group>"; };
 		3DF5B5AC18A9A92D006431AF /* BeerTasting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerTasting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF5B5AF18A9A92D006431AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DF5B5B118A9A92D006431AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +61,10 @@
 		3DF5B5D918A9A92D006431AF /* BeerTastingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeerTastingTests-Info.plist"; sourceTree = "<group>"; };
 		3DF5B5DB18A9A92D006431AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DF5B5DD18A9A92D006431AF /* BeerTastingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerTastingTests.m; sourceTree = "<group>"; };
+		3DF5B5E718A9B003006431AF /* BeerTasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerTasting.h; sourceTree = "<group>"; };
+		3DF5B5E818A9B003006431AF /* BeerTasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerTasting.m; sourceTree = "<group>"; };
+		3DF5B5EA18A9B359006431AF /* BeerTastingDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerTastingDataController.h; sourceTree = "<group>"; };
+		3DF5B5EB18A9B359006431AF /* BeerTastingDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerTastingDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +127,14 @@
 				3DF5B5BE18A9A92D006431AF /* BeerAppDelegate.h */,
 				3DF5B5BF18A9A92D006431AF /* BeerAppDelegate.m */,
 				3DF5B5C118A9A92D006431AF /* Main.storyboard */,
+				3DF5B5E718A9B003006431AF /* BeerTasting.h */,
+				3DF5B5E818A9B003006431AF /* BeerTasting.m */,
+				3DF5B5EA18A9B359006431AF /* BeerTastingDataController.h */,
+				3DF5B5EB18A9B359006431AF /* BeerTastingDataController.m */,
 				3DF5B5C418A9A92D006431AF /* BeerMasterViewController.h */,
 				3DF5B5C518A9A92D006431AF /* BeerMasterViewController.m */,
+				3D29B1FC18BEAE8C00C91FD5 /* AddTastingViewController.h */,
+				3D29B1FD18BEAE8C00C91FD5 /* AddTastingViewController.m */,
 				3DF5B5C718A9A92D006431AF /* BeerDetailViewController.h */,
 				3DF5B5C818A9A92D006431AF /* BeerDetailViewController.m */,
 				3DF5B5CA18A9A92D006431AF /* Images.xcassets */,
@@ -256,8 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF5B5C618A9A92D006431AF /* BeerMasterViewController.m in Sources */,
+				3DF5B5E918A9B003006431AF /* BeerTasting.m in Sources */,
 				3DF5B5C918A9A92D006431AF /* BeerDetailViewController.m in Sources */,
 				3DF5B5C018A9A92D006431AF /* BeerAppDelegate.m in Sources */,
+				3DF5B5EC18A9B359006431AF /* BeerTastingDataController.m in Sources */,
+				3D29B1FE18BEAE8C00C91FD5 /* AddTastingViewController.m in Sources */,
 				3DF5B5BC18A9A92D006431AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +485,7 @@
 				3DF5B5E318A9A92D006431AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF5B5E418A9A92D006431AF /* Build configuration list for PBXNativeTarget "BeerTastingTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +494,7 @@
 				3DF5B5E618A9A92D006431AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
